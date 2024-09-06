@@ -1,0 +1,109 @@
+/* Imports the Merriweather font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Styles the page body */
+body {
+    font-family: "Merriweather", sans-serif; /* Sets the default font */
+    background-color: #F5F5F5; /* Sets the page background color */
+    display: flex; /* Uses Flexbox for layout */
+    flex-direction: column; /* Aligns items vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    height: 100vh; /* Fills the entire viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles the h1 headings */
+h1 {
+    font-size: 2.5rem; /* Font size */
+    color: #336633; /* Text color */
+    text-align: center; /* Centers the text */
+    letter-spacing: 0.4rem; /* Letter spacing */
+}
+
+/* Styles the page sections */
+section {
+    display: flex; /* Uses Flexbox for layout */
+    flex-direction: column; /* Aligns items vertically */
+    align-items: center; /* Centers items horizontally */
+    margin-bottom: 3rem; /* Spacing below each section */
+}
+
+/* Styles the inputs within sections */
+section input {
+    width: 30rem; /* Width of the inputs */
+    border: none; /* Removes the default border */
+    padding: 1rem; /* Internal spacing */
+    border-radius: 1.5rem; /* Rounded border */
+    margin-bottom: 1rem; /* Spacing below the inputs */
+    color: #45474B; /* Text color */
+    font-size: 1rem; /* Font size */
+    box-sizing: border-box; /* Includes padding and border in the total width */
+}
+
+/* Styles the buttons within sections */
+section button {
+    padding: 0.8rem 1.2rem; /* Button internal spacing */
+    border: none; /* Removes the default border */
+    border-radius: 1.5rem; /* Rounded border */
+    background-color: #228B22; /* Button background color */
+    color: #F5F7F8; /* Button text color */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+/* Styles the search results box */
+.search-results {
+    background: #E0FFFF; /* Background color of the search results box */
+    width: 60rem; /* Maximum width of the results box */
+    height: 46vh; /* Maximum height of the results box */
+    overflow-y: auto; /* Adds vertical scrolling if necessary */
+    margin-top: 1rem; /* Spacing above the results box */
+    padding: 1rem; /* Internal spacing */
+    border-radius: 0.6rem; /* Rounded border */
+}
+
+/* Styles each result item */
+.result {
+    background: #F0E68C; /* Background color of the items */
+    border-radius: 0.6rem; /* Rounded border */
+    padding: 1rem; /* Internal spacing */
+    margin-bottom: 1rem; /* Spacing below the items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Styles the headings within result items */
+.result h2 {
+    font-size: 1.5rem; /* Font size */
+    color: #663300; /* Text color */
+}
+
+/* Styles the links within result items */
+.result a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: #008000; /* Link text color */
+}
+
+/* Styles the links when the mouse is hovered over */
+.result a:hover {
+    text-decoration: underline; /* Adds underline when hovering */
+}
+
+/* Styles the meta description within result items */
+.meta-description {
+    color: #45474B; /* Text color */
+    margin: 0.5rem 0; /* Margin above and below */
+}
+
+/* Styles the page footer */
+footer {
+    background-color: #D2B48C; /* Footer background color */
+    color: #45474B; /* Text color */
+    text-align: center; /* Centers the text */
+    padding: 0; /* Internal spacing */
+    width: 100%; /* Full page width */
+    position: absolute; /* Positions the footer */
+    bottom: 0; /* Aligns to the bottom of the page */
+    font-size: 1rem; /* Font size */
+}
