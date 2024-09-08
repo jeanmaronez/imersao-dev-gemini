@@ -4,7 +4,7 @@
 /* Styles the page body */
 body {
     font-family: "Merriweather", sans-serif; /* Sets the default font */
-    background-color: #F5F5F5; /* Sets the page background color */
+    background-color: #00ffff; /* Sets the page background color */
     display: flex; /* Uses Flexbox for layout */
     flex-direction: column; /* Aligns items vertically */
     align-items: center; /* Centers items horizontally */
